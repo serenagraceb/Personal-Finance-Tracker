@@ -3,7 +3,7 @@ from sub import calculate_total,calculate_category
 import matplotlib.pyplot as plt
 from dotenv import load_dotenv
 import os
-load_dotenv("p.env")
+load_dotenv("../p.env")
 class Transaction:
     def __init__(self,amount,category,income_expense):
         if amount<=0:
